@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#this program will multiplicate the arguments and give the product 0
+
+#example 1. looping over the arguments 
+echo "multiplying all the arguments"
+res=1
+for arg in $* 
+do 
+	((res=$res*$arg))
+
+#            echo "$the multiplication of arguments is: $7720"
+done
+echo $res
