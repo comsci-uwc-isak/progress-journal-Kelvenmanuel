@@ -1,0 +1,11 @@
+#!/bin/bash 
+#this program will print a sequence of numbers
+
+$seq 1 1000 
+for (( i=1; i<=1000; i++ ))
+do
+for (( seq=0; seq<=6; seq++ ))
+do 
+echo "$seq"
+done
+done
